@@ -3,7 +3,7 @@ close all
 clc
 clear all
 x = randperm(100,80)/25;
-error = (rand(1,80)-0.5)*2;
+error = (rand(1,80)-0.5)*4;
 y = zeros(1,numel(x));
 para_true = [3; 4; -5; 0.5; 8];
 for i = 1:numel(x)
